@@ -51,6 +51,8 @@ The deadline for submitting your code is Wednesday, March 7 (17th of Esfand).
 ## Resources 📚
 For assistance with this assignment, you may refer to the following resources:
 
+🔗 [How to Write a Good README File for Your GitHub Project](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+
 🔗 [A Simple Readme Template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
 
 🔗 [Markdown Cheet Sheet](https://www.freecodecamp.org/news/markdown-cheat-sheet/)
