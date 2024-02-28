@@ -4,20 +4,25 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.HttpURLConnection;
 public class Actors {
-    public static final String API_KEY = "Your API_KEY";   // TODO --> add your api key about Actors here
-    String netWorth;
+    public static final String API_KEY = "Your API_KEY";   // TODO:: <-- add your api key about Actors here
+    String NetWorth;
     Boolean isAlive;
 
-    public Actors(String netWorth, boolean isAlive){
-        //TODO --> (Write a proper constructor using the get_from_api functions)
+    // Constructor
+    public Actors(String NetWorth , Boolean isAlive){
+        this.NetWorth = NetWorth;
+        this.isAlive = isAlive;
     }
+
+    // getter & setter
+    //TODO :: implement getters and setters part -->
     @SuppressWarnings({"deprecation"})
     /**
      * Retrieves data for the specified actor.
      * @param name for which Actor should be retrieved
      * @return a string representation of the Actors info or null if an error occurred
      */
-    public static String getActorData(String name) {
+    public String getActorData(String name) {
         try {
             URL url = new URL("https://api.api-ninjas.com/v1/celebrity?name="+
                     name.replace(" ", "+")+"&apikey="+API_KEY);
@@ -43,22 +48,21 @@ public class Actors {
             return null;
         }
     }
-    public static double getNetWorthViaApi(String actorsInfoJson){
-        //TODO --> (This function must return the "NetWorth")
+    public double getNetWorthViaApi(String ActorsInfoJson){
+        //TODO --> (This function must return the "NetWorth")  -->
         double result = 0.0;
         return result;
     }
 
-    public static boolean isAlive(String actorsInfoJson){
-        //TODO --> (If your chosen actor is alive it must return true otherwise it must return false)
+    public boolean IsAlive(String ActorsInfoJson){
+        //TODO --> (If your chosen actor is alive it must return true otherwise it must return false)  -->
         boolean statues = false;
         return statues;
     }
-
-    public static String getDateOfDeathViaApi(String actorsInfoJson){
+    public String getDateOfDeathViaApi(String ActorsInfoJson){
         //TODO --> (If your chosen actor is deceased it must return the date of death)  -->
-        String date = "";
-        return date;
+        String result = "";
+        return result;
     }
 
 }
