@@ -4,18 +4,13 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.HttpURLConnection;
 public class Actors {
-    public static final String API_KEY = "Your API_KEY";   // TODO:: <-- add your api key about Actors here
-    String NetWorth;
+    public static final String API_KEY = "Your API_KEY";   // TODO --> add your api key about Actors here
+    String netWorth;
     Boolean isAlive;
 
-    // Constructor
-    public Actors(String NetWorth , Boolean isAlive){
-        this.NetWorth = NetWorth;
-        this.isAlive = isAlive;
+    public Actors(String netWorth, boolean isAlive){
+        //TODO --> (Write a proper constructor using the get_from_api functions)
     }
-
-    // getter & setter
-    //TODO :: implement getters and setters part -->
     @SuppressWarnings({"deprecation"})
     /**
      * Retrieves data for the specified actor.
@@ -48,21 +43,22 @@ public class Actors {
             return null;
         }
     }
-    public double getNetWorthViaApi(String ActorsInfoJson){
-        //TODO --> (This function must return the "NetWorth")  -->
+    public double getNetWorthViaApi(String actorsInfoJson){
+        //TODO --> (This function must return the "NetWorth")
         double result = 0.0;
         return result;
     }
 
-    public boolean IsAlive(String ActorsInfoJson){
-        //TODO --> (If your chosen actor is alive it must return true otherwise it must return false)  -->
+    public boolean isAlive(String actorsInfoJson){
+        //TODO --> (If your chosen actor is alive it must return true otherwise it must return false)
         boolean statues = false;
         return statues;
     }
-    public String getDateOfDeathViaApi(String ActorsInfoJson){
-        //TODO --> (If your chosen actor is deceased it must return the date of death)  -->
-        String result = "";
-        return result;
+
+    public int calculateAgeAtDeath(String actorsInfoJson){
+        //TODO --> (If your chosen actor is deceased it must return his/her age at the time of death)
+        int age;
+        return age;
     }
 
 }

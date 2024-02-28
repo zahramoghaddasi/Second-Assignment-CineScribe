@@ -5,28 +5,15 @@ import java.net.URLConnection;
 import java.io.BufferedReader;
 import java.util.ArrayList;
 public class Movie {
-    public static final String API_KEY = "Your API_KEY";   // TODO:: <-- add your api key about Movie here
-    int BoxOffice;
-    ArrayList<String> WatchList;
-    int Year;
-    String Value;
+    public static final String API_KEY = "Your API_KEY";   // TODO --> add your api key about Movie here
+    int boxOffice;
+    ArrayList<String> actorsList;
+    String rating;
 
-    // Constructor
-    public Movie(ArrayList<String> WatchList , int Year , String Value){
-        this.WatchList = WatchList;
-        this.Year = Year;
-        this.Value = Value;
+    public Movie(ArrayList<String> actorsList, String rating, int boxOffice){
+        //TODO --> (Write a proper constructor using the get_from_api functions)
     }
 
-    // getter & setter
-    // for instance -->
-    public int getBoxOffice() {
-        return BoxOffice;
-    }
-    public void setBoxOffice(int boxOffice) {
-        BoxOffice = boxOffice;
-    }
-    // TODO:: implement another getters and setters based on your constructor -->
     @SuppressWarnings("deprecation")
     /**
      * Retrieves data for the specified movie.
@@ -46,32 +33,26 @@ public class Movie {
             stringBuilder.append(line);
         }
         reader.close();
-        // you can handle an error if the chosen movie is not found --->
+        //handle an error if the chosen movie is not found
         return stringBuilder.toString();
     }
-    public int getBoxOfficeViaApi(String MoviesInfoJson){
-        //TODO --> (This function must return the "Box Office" as an Integer -->
+    public int getBoxOfficeViaApi(String moviesInfoJson){
+        //TODO --> (This function must change and return the "Box Office" as an Integer)
         // NOTICE :: you are not permitted to convert this function to return a String instead of an int !!!
-        int result = 0;
-        return result;
+        int boxOffice = 0;
+        return boxOffice;
     }
-    public int getYearViaApi(String MoviesInfoJson){
-        //TODO --> (This function must return the "Year" as an Integer)  -->
-        int result = 0;
-        return result;
-    }
-    public String getValueViaApi(String MoviesInfoJson){
-        //TODO --> (This function must return the value in the "Ratings" part as 'percentage(%)'
+
+    public String getRatingViaApi(String moviesInfoJson){
+        //TODO --> (This function must return the rating in the "Ratings" part as 'percentage(%)'
         // where the source is "Rotten Tomatoes")  -->
-        String result = "";
-        return result;
+        String rating = "";
+        return rating;
     }
-    public String TypeOfMovie(String MovieInfoJson){
-        // TODO --> (This function must check the type of the movie) -->
-        String result = "";
-        return result;
-    }
-    public void addToWatchList(String movie){
-        // TODO --> (This function must add movie to watch List) -->
+
+    public void getActorListViaApi(String movieInfoJson){
+        //TODO --> (This function must return the "Actors" in actorsList)
+        ArrayList<String> actorsList;
+        return actorsList;
     }
 }
