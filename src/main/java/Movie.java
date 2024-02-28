@@ -3,12 +3,30 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.io.BufferedReader;
-public class CineScribe {
-    // TODO:: add your api key here -->
-    public static String API_KEY = "YOUR API_KEY";
-    public static void main(String[] args){
-        // TODO:: complete main function -->
+import java.util.ArrayList;
+public class Movie {
+    public static final String API_KEY = "Your API_KEY";   // TODO:: <-- add your api key about Movie here
+    int BoxOffice;
+    ArrayList<String> WatchList;
+    int Year;
+    String Value;
+
+    // Constructor
+    public Movie(ArrayList<String> WatchList , int Year , String Value){
+        this.WatchList = WatchList;
+        this.Year = Year;
+        this.Value = Value;
     }
+
+    // getter & setter
+    // for instance -->
+    public int getBoxOffice() {
+        return BoxOffice;
+    }
+    public void setBoxOffice(int boxOffice) {
+        BoxOffice = boxOffice;
+    }
+    // TODO:: implement another getters and setters based on your constructor -->
     @SuppressWarnings("deprecation")
     /**
      * Retrieves data for the specified movie.
@@ -16,7 +34,8 @@ public class CineScribe {
      * @param title the name of the title for which MovieData should be retrieved
      * @return a string representation of the MovieData, or null if an error occurred
      */
-    public static String getCineScribeData(String title) throws IOException {
+
+    public String getMovieData(String title) throws IOException {
         URL url = new URL("https://www.omdbapi.com/?t="+title+"&apikey="+API_KEY);
         URLConnection Url = url.openConnection();
         Url.setRequestProperty("Authorization", "Key" + API_KEY);
@@ -27,23 +46,32 @@ public class CineScribe {
             stringBuilder.append(line);
         }
         reader.close();
+        // you can handle an error if the chosen movie is not found --->
         return stringBuilder.toString();
     }
-    public static int getBoxOffice(String infoJson){
+    public int getBoxOfficeViaApi(String MoviesInfoJson){
         //TODO --> (This function must return the "Box Office" as an Integer -->
         // NOTICE :: you are not permitted to convert this function to return a String instead of an int !!!
         int result = 0;
         return result;
     }
-    public static int getYear(String infoJson){
+    public int getYearViaApi(String MoviesInfoJson){
         //TODO --> (This function must return the "Year" as an Integer)  -->
         int result = 0;
         return result;
     }
-    public static String getValue(String infoJson){
+    public String getValueViaApi(String MoviesInfoJson){
         //TODO --> (This function must return the value in the "Ratings" part as 'percentage(%)'
         // where the source is "Rotten Tomatoes")  -->
         String result = "";
         return result;
+    }
+    public String TypeOfMovie(String MovieInfoJson){
+        // TODO --> (This function must check the type of the movie) -->
+        String result = "";
+        return result;
+    }
+    public void addToWatchList(String movie){
+        // TODO --> (This function must add movie to watch List) -->
     }
 }
