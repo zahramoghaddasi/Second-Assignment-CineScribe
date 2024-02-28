@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fda6282-aa6f-4abe-bdc3-498baea9f29a" name="Changes" comment="add testCases + fix some mistaken + change some function">
-      <change beforePath="$PROJECT_DIR$/src/main/test/ActorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ActorsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/MovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MovieTest.java" afterDir="false" />
+    <list default="true" id="7fda6282-aa6f-4abe-bdc3-498baea9f29a" name="Changes" comment="fix root of test folder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Actors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/ActorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/ActorsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/MovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/MovieTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +69,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MovieTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CineScribe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CineScribe" />
+      <module name="Second_Assignment_CineScribe.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Second_Assignment_CineScribe.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,17 +112,6 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="MovieTest.getBoxOfficeViaApi2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Second_Assignment_CineScribe.main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MovieTest" />
-      <option name="METHOD_NAME" value="getBoxOfficeViaApi2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration name="MovieTest.getImdbVotesViaApi1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Second_Assignment_CineScribe.main" />
       <option name="PACKAGE_NAME" value="" />
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MovieTest" />
         <item itemvalue="JUnit.ActorsTest" />
         <item itemvalue="JUnit.MovieTest.getImdbVotesViaApi1" />
         <item itemvalue="JUnit.MovieTest.getValueViaApi2" />
-        <item itemvalue="JUnit.MovieTest.getBoxOfficeViaApi2" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709138189210</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix root of test folder">
+      <created>1709138608571</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709138608571</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +214,7 @@
     <MESSAGE value="ready to push" />
     <MESSAGE value="complete!!" />
     <MESSAGE value="add testCases + fix some mistaken + change some function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add testCases + fix some mistaken + change some function" />
+    <MESSAGE value="fix root of test folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix root of test folder" />
   </component>
 </project>

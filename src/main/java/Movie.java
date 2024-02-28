@@ -22,7 +22,7 @@ public class Movie {
      * @return a string representation of the MovieData, or null if an error occurred
      */
 
-    public static String getMovieData(String title) throws IOException {
+    public String getMovieData(String title) throws IOException {
         URL url = new URL("https://www.omdbapi.com/?t="+title+"&apikey="+API_KEY);
         URLConnection Url = url.openConnection();
         Url.setRequestProperty("Authorization", "Key" + API_KEY);
@@ -36,21 +36,21 @@ public class Movie {
         //handle an error if the chosen movie is not found
         return stringBuilder.toString();
     }
-    public static int getImdbVotesViaApi(String moviesInfoJson){
+    public int getImdbVotesViaApi(String moviesInfoJson){
         //TODO --> (This function must change and return the "ImdbVotes" as an Integer)
         // NOTICE :: you are not permitted to convert this function to return a String instead of an int !!!
         int ImdbVotes = 0;
         return ImdbVotes;
     }
 
-    public static String getRatingViaApi(String moviesInfoJson){
+    public String getRatingViaApi(String moviesInfoJson){
         //TODO --> (This function must return the rating in the "Ratings" part
         // where the source is "Internet Movie Database")  -->
         String rating = "";
         return rating;
     }
 
-    public static void getActorListViaApi(String movieInfoJson){
+    public void getActorListViaApi(String movieInfoJson){
         //TODO --> (This function must return the "Actors" in actorsList)
     }
 }
