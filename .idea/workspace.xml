@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fda6282-aa6f-4abe-bdc3-498baea9f29a" name="Changes" comment="add testCases + fix some mistaken + change some function">
-      <change afterPath="$PROJECT_DIR$/src/main/test/ActorsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/MovieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/ActorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ActorsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/MovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MovieTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ActorsTest">
+  <component name="RunManager" selected="JUnit.MovieTest">
     <configuration name="CineScribe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CineScribe" />
       <module name="Second_Assignment_CineScribe.main" />
@@ -105,22 +101,22 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="MovieTest.TypeOfMovie2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieTest.getBoxOfficeViaApi2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Second_Assignment_CineScribe.main" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MovieTest" />
-      <option name="METHOD_NAME" value="TypeOfMovie2" />
+      <option name="METHOD_NAME" value="getBoxOfficeViaApi2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="MovieTest.getBoxOfficeViaApi2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieTest.getImdbVotesViaApi1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Second_Assignment_CineScribe.main" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MovieTest" />
-      <option name="METHOD_NAME" value="getBoxOfficeViaApi2" />
+      <option name="METHOD_NAME" value="getImdbVotesViaApi1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ActorsTest" />
-        <item itemvalue="JUnit.MovieTest.getValueViaApi2" />
         <item itemvalue="JUnit.MovieTest" />
+        <item itemvalue="JUnit.ActorsTest" />
+        <item itemvalue="JUnit.MovieTest.getImdbVotesViaApi1" />
+        <item itemvalue="JUnit.MovieTest.getValueViaApi2" />
         <item itemvalue="JUnit.MovieTest.getBoxOfficeViaApi2" />
-        <item itemvalue="JUnit.MovieTest.TypeOfMovie2" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709137943140</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add testCases + fix some mistaken + change some function">
+      <created>1709138189210</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709138189210</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
