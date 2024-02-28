@@ -9,8 +9,8 @@ public class MovieTest {
 
     @BeforeAll
     static void setUp() throws IOException {
-       data1 = Movie.getMovieData("maze runner");  // movie
-       data2 = Movie.getMovieData("this is us");   // series
+        data1 = Movie.getMovieData("maze runner");  // movie
+        data2 = Movie.getMovieData("this is us");   // series
     }
     @Test
     void getImdbVotesViaApi1() {

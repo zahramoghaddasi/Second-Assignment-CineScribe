@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fda6282-aa6f-4abe-bdc3-498baea9f29a" name="Changes" comment="complete!!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ActorsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MovieTest.java" afterDir="false" />
+    <list default="true" id="7fda6282-aa6f-4abe-bdc3-498baea9f29a" name="Changes" comment="add testCases + fix some mistaken + change some function">
+      <change afterPath="$PROJECT_DIR$/src/main/test/ActorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/MovieTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Actors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actors.java" afterDir="false" />
@@ -48,18 +48,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "jdk.selected.JAVA_MODULE": "21",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/test" />
@@ -70,7 +70,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MovieTest.getValueViaApi2">
+  <component name="RunManager" selected="JUnit.ActorsTest">
     <configuration name="CineScribe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CineScribe" />
       <module name="Second_Assignment_CineScribe.main" />
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ActorsTest" />
         <item itemvalue="JUnit.MovieTest.getValueViaApi2" />
         <item itemvalue="JUnit.MovieTest" />
         <item itemvalue="JUnit.MovieTest.getBoxOfficeViaApi2" />
         <item itemvalue="JUnit.MovieTest.TypeOfMovie2" />
-        <item itemvalue="JUnit.ActorsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709122915349</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add testCases + fix some mistaken + change some function">
+      <created>1709137943140</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709137943140</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +203,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="ready to push" />
     <MESSAGE value="complete!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete!!" />
+    <MESSAGE value="add testCases + fix some mistaken + change some function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add testCases + fix some mistaken + change some function" />
   </component>
 </project>
