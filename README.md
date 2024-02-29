@@ -48,7 +48,7 @@ For additional challenges and learning opportunities, consider the following bon
 - Provide a simple GUI (Graphical User Interface) for your project. The recommended library to do so is Javafx. JavaFX empowers developers to create dynamic and engaging user interfaces for their Java applications, offering a modern and versatile platform for building cross-platform desktop, web, and mobile applications
 
 ## Submission ⌛
-The deadline for submitting your code is Wednesday, March 7 (17th of Esfand).
+The deadline for submitting your code is Thursday, March 7 (17th of Esfand).
 
 ## Resources 📚
 For assistance with this assignment, you may refer to the following resources:
