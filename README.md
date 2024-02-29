@@ -32,7 +32,8 @@ Before getting started, ensure you have the following installed:
 ## Evaluation 📃
 Your submission will be evaluated based on the following criteria:
 
-- Error-free compilation and execution of your code. 
+- Your code should pass all the tests provided in the test directory.
+Error-free compilation and execution of your code. 
 - Accurate retrieval and presentation of movie and actor data through the methods written.
 - Clear code structure, readability, thorough commenting, and adherence to clean code principles.
 
@@ -44,6 +45,7 @@ For additional challenges and learning opportunities, consider the following bon
 - Enhance your classes to display more comprehensive information about movies and actors.
 - Revise your report to provide more detailed insights into your approach and challenges faced.
 - Utilize Postman for API testing and exploration. Postman is a powerful API client that simplifies the process of testing, documenting, and sharing APIs. It provides an intuitive interface for sending HTTP requests, allowing developers to explore and interact with APIs effortlessly.
+- Provide a simple GUI (Graphical User Interface) for your project. The recommended library to do so is Javafx. JavaFX empowers developers to create dynamic and engaging user interfaces for their Java applications, offering a modern and versatile platform for building cross-platform desktop, web, and mobile applications
 
 ## Submission ⌛
 The deadline for submitting your code is Wednesday, March 7 (17th of Esfand).
@@ -62,3 +64,9 @@ For assistance with this assignment, you may refer to the following resources:
 🔗 [Uploading a File and JSON Data in Postman](https://www.baeldung.com/postman-upload-file-json)
 
 🔗 [Send API requests and get response data in Postman](https://learning.postman.com/docs/sending-requests/requests/)
+
+🔗 [Getting Started With Javafx](https://openjfx.io/openjfx-docs/)
+
+🔗 [JavaFX Tutorial by Jenkov](https://jenkov.com/tutorials/javafx/index.html)
+ 
+ 
