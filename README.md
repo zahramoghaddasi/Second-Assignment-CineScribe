@@ -17,8 +17,8 @@ Before getting started, ensure you have the following installed:
 ## Tasks 📝
 1. Fork this repository and clone it to your local machine.
 2. Create a new branch named develop and switch to it. All development should be done in this branch.
-3. et an API key from https://omdbapi.com (for Movie class) and https://api-ninjas.com/api/celebrity (for actor class). You need to sign up and verify your account.
-4. Design Movie and Actor classes with appropriate methods and attributes. Complete the methods in the code and add at least one new attribute for each class, then write a new method to get the attribute proper value using json string.
+3. Get an API key from https://omdbapi.com (for Movie class) and https://api-ninjas.com/api/celebrity (for actor class). You need to sign up and verify your account.
+4. Design Movie and Actor classes with appropriate methods and attributes. Complete the methods in the code and add at least one new attribute for each class, then write a new method to get the attribute's proper value using JSON string.
 5. Implement a menu in your Main class. This menu should allow users to:
 
  	- Enter the name of a movie and display information extracted from the JSON object in the console, including the list of actors.
@@ -45,7 +45,7 @@ For additional challenges and learning opportunities, consider the following bon
 - Enhance your classes to display more comprehensive information about movies and actors.
 - Revise your report to provide more detailed insights into your approach and challenges faced.
 - Utilize Postman for API testing and exploration. Postman is a powerful API client that simplifies the process of testing, documenting, and sharing APIs. It provides an intuitive interface for sending HTTP requests, allowing developers to explore and interact with APIs effortlessly.
-- Provide a simple GUI (Graphical User Interface) for your project. The recommended library to do so is Javafx. JavaFX empowers developers to create dynamic and engaging user interfaces for their Java applications, offering a modern and versatile platform for building cross-platform desktop, web, and mobile applications
+- Provide a simple GUI (Graphical User Interface) for your project. The recommended library to do so is JavaFX. JavaFX empowers developers to create dynamic and engaging user interfaces for their Java applications, offering a modern and versatile platform for building cross-platform desktop, web, and mobile applications
 
 ## Submission ⌛
 The deadline for submitting your code is Thursday, March 7 (17th of Esfand).
