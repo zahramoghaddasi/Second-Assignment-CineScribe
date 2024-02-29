@@ -33,7 +33,7 @@ Before getting started, ensure you have the following installed:
 Your submission will be evaluated based on the following criteria:
 
 - Your code should pass all the tests provided in the test directory.
-Error-free compilation and execution of your code. 
+- Error-free compilation and execution of your code. 
 - Accurate retrieval and presentation of movie and actor data through the methods written.
 - Clear code structure, readability, thorough commenting, and adherence to clean code principles.
 
