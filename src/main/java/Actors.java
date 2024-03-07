@@ -136,6 +136,6 @@ public class Actors {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return "Date of Death: " + date;
+        return date;
     }
 }
