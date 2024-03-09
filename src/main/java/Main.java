@@ -21,7 +21,7 @@ public class Main {
                 System.out.print("Name Of Movie: ");
                 Scanner MovieName = new Scanner(System.in);
                 String NameM = MovieName.nextLine();
-                Movie movie = new Movie(new ArrayList<>(), "", 0);
+                Movie movie = new Movie(new ArrayList<>(), "", 0 , "" , "" , "" , "","","","","","");
                 String check = movie.getMovieData(NameM);
                 while (check.equals("Please check movie name !!!")){
                     System.out.println(check);
@@ -51,7 +51,7 @@ public class Main {
                 System.out.print("Name Of Actor : ");
                 Scanner ActorName = new Scanner(System.in);
                 String NameA = ActorName.nextLine();
-                Actors actor = new Actors("",false);
+                Actors actor = new Actors(0.0,false, "", 0, "", "", "", 0.0);
                 System.out.println(NameA);
                 System.out.println(actor.getGender(actor.getActorData(NameA)));
                 System.out.println(actor.getNationality(actor.getActorData(NameA)));

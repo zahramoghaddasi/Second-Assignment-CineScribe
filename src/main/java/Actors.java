@@ -4,15 +4,27 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.HttpURLConnection;
 import org.json.JSONObject;
-
 public class Actors {
     public static final String API_KEY = "HwA0+AKJLZhGKrsw3JwnxQ==WHcRZYxbqRdQq8qa";   // TODO --> add your api key about Actors here
-    String netWorth;
+    double netWorth;
     Boolean isAlive;
+    String date;
+    int age;
+    String Nationality;
+    String GENDER;
+    String Date;
+    double height;
 
-    public Actors(String netWorth, boolean isAlive) {
+    public Actors(double netWorth, boolean isAlive , String date , int age , String Nationality , String GENDER , String Date , double height) {
         this.netWorth = netWorth;
         this.isAlive = isAlive;
+        this.date = date;
+        this.age = age;
+        this.Nationality = Nationality;
+        this.GENDER = GENDER;
+        this.Date = Date;
+        this.height = height;
+
     }
 
     @SuppressWarnings({"deprecation"})
@@ -136,6 +148,8 @@ public class Actors {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         return "Date of Death: " + date;
     }
 }
+

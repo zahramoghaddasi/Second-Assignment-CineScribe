@@ -11,11 +11,29 @@ public class Movie {
     int ImdbVotes;
     ArrayList<String> actorsList;
     String rating;
+    String Year;
+    String time;
+    String released;
+    String gener;
+    String name;
+    String language;
+    String Country;
+    String type;
+    String plot;
 
-    public Movie(ArrayList<String> actorsList, String rating, int ImdbVotes){
+    public Movie(ArrayList<String> actorsList, String rating, int ImdbVotes ,String Year,String time ,String released ,String gener  ,String name ,String language ,String Country ,String type,String plot ){
         this.actorsList = actorsList;
         this.ImdbVotes = ImdbVotes;
         this.rating = rating;
+        this.Year = Year;
+        this.time = time;
+        this.released = released;
+        this.gener = gener;
+        this.name = name;
+        this.language = language;
+        this.Country = Country;
+        this.type = type;
+        this.plot = plot;
     }
 
     @SuppressWarnings("deprecation")
