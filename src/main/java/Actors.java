@@ -149,7 +149,7 @@ public class Actors {
             e.printStackTrace();
         }
 
-        return "Date of Death: " + date;
+        return date;
     }
 }
 
