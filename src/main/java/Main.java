@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         runMenu();
     }
+
     public static void runMenu() throws IOException{
         int ex = 0;
         while(ex == 0) {
