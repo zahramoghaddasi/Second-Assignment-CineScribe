@@ -6,7 +6,7 @@ public class ActorsTest {
     static Actors actors;
     @BeforeAll
     static void setUp() {
-        actors = new Actors("",false);
+        actors = new Actors(0.0,false, "", 0, "", "", "", 0.0 );
         data1 = actors.getActorData("jennifer lawrence");
         data2 =  actors.getActorData("robin williams");
     }

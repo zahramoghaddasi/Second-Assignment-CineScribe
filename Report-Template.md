@@ -1,56 +1,49 @@
 # Project Title
 
-Simple overview of use/purpose.
+Search Movie & Actor
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+In this program, you can enter the name of your favorite actor or movie and get information about them.
 
 ## Getting Started
 
+...
+
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+You should get Gradle version:8.6
+int this program you need this libraries:ArrayList , JSONArray , JSONObject , IOException , InputStreamReader ,
+net.URLConnection , io.BufferedReader , net.HttpURLConnection.
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+If you see this program You should install intilij.
+If you run this program you should install Gradle too.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+After installing the program, enter the program file and open the main part, then press the green triangle next to the main function and the program will run like this.
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+To learn better "API", you can refer to Jadi's YouTube channel.
+You can use the following sites to learn programming better: KHAN ACADEMY , CODE SCHOOL , COURSERA.
 
 ## Authors
-
-Contributors names and contact info
-
+Zahra Moghaddasi:Student of SBU.
 ex. Dominique Pizzie  
 ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+...
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+https://omdbapi.com (For video)
+https://api-ninjas.com/api/celebrity(For celebrity)
+*Jadi's YouTube
+https://www.bing.com/ck/a?!&&p=adeb9d1302d533ccJmltdHM9MTcwOTc2OTYwMCZpZ3VpZD0zMjBlMzliOS0yMTY5LTY1OWYtMDA4Ni0yYTBhMjA3ZDY0YzkmaW5zaWQ9NTE1OA&ptn=3&ver=2&hsh=3&fclid=320e39b9-2169-659f-0086-2a0a207d64c9&psq=geeks&u=a1aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcv&ntb=1
 
 ## Acknowledgments
 
